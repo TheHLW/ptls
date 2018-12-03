@@ -4,3 +4,627 @@
 [ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\YZNCMS\thinkphp\lang\zh-cn.php
 [ info ] [ DB ] INIT mysql
 [ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[D:\phpstudy\PHPTutorial\WWW\YZNCMS\thinkphp\library\think\db\Connection.php:528]
+---------------------------------------------------------------
+[ 2018-12-03T17:16:05+08:00 ] ::1 GET localhost/ptls/public/
+[运行时间：0.086005s] [吞吐率：11.63req/s] [内存消耗：1,978.33kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\library\think\db\Connection.php:528]
+---------------------------------------------------------------
+[ 2018-12-03T17:17:35+08:00 ] ::1 GET localhost/ptls/public/
+[运行时间：0.228013s] [吞吐率：4.39req/s] [内存消耗：2,703.06kb] [文件加载：82]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6349973504',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ptls/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=lvshi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.075004s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Config' ORDER BY `id` DESC [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_config` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `name`,`value`,`type`,`options` FROM `yzn_config` WHERE  ( status='1' ) ORDER BY `listorder`,`id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_attachment` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `path`,`thumb` FROM `yzn_attachment` WHERE  `id` = 233 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`path`,`thumb` FROM `yzn_attachment` WHERE  `id` IN (234,235) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Hooks' ORDER BY `id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `name`,`addons` FROM `yzn_hooks` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_addons` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yzn_addons` WHERE  `name` IN ('returntop')  AND `status` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-03T17:17:39+08:00 ] ::1 GET localhost/ptls/public/admin
+[运行时间：0.075004s] [吞吐率：13.33req/s] [内存消耗：2,152.59kb] [文件加载：70]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=lvshi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Hooks' ORDER BY `id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT `name`,`addons` FROM `yzn_hooks` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_addons` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yzn_addons` WHERE  `name` IN ('returntop')  AND `status` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-03T17:17:48+08:00 ] ::1 GET localhost/ptls/public/index.php/admin
+[运行时间：0.131008s] [吞吐率：7.63req/s] [内存消耗：2,879.97kb] [文件加载：94]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6349973504; pgv_si=s6854816768',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=lvshi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Hooks' ORDER BY `id` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `name`,`addons` FROM `yzn_hooks` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_addons` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yzn_addons` WHERE  `name` IN ('returntop')  AND `status` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_adminlog` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] INSERT INTO `yzn_adminlog` (`uid` , `status` , `info` , `get` , `ip` , `create_time`) VALUES (0 , 0 , '提示语:请先登陆' , '/ptls/public/index.php/admin' , 0 , 1543828668) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-03T17:17:51+08:00 ] ::1 GET localhost/ptls/public/index.php/admin/index/login.html
+[运行时间：0.072004s] [吞吐率：13.89req/s] [内存消耗：2,911.35kb] [文件加载：91]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6349973504; pgv_si=s6854816768; PHPSESSID=2bdg6o3a58haq23vdn8j8urf5s',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ptls/public/index.php/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\ptls\application\admin\view\index\login.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=lvshi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Hooks' ORDER BY `id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `name`,`addons` FROM `yzn_hooks` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_addons` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yzn_addons` WHERE  `name` IN ('returntop')  AND `status` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-03T17:17:51+08:00 ] ::1 GET localhost/ptls/public/index.php/api/checkcode/getverify/font_size/18/imageW/130/imageH/38.html
+[运行时间：0.278016s] [吞吐率：3.60req/s] [内存消耗：2,484.13kb] [文件加载：77]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6349973504; pgv_si=s6854816768; PHPSESSID=2bdg6o3a58haq23vdn8j8urf5s',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ptls/public/index.php/admin/index/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'font_size' => '18',
+  'imageW' => '130',
+  'imageH' => '38',
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005001s ] mysql:host=127.0.0.1;dbname=lvshi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Hooks' ORDER BY `id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `name`,`addons` FROM `yzn_hooks` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_addons` [ RunTime:0.026002s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yzn_addons` WHERE  `name` IN ('returntop')  AND `status` = 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-12-03T17:18:00+08:00 ] ::1 POST localhost/ptls/public/index.php/admin/index/login.html
+[运行时间：0.112007s] [吞吐率：8.93req/s] [内存消耗：2,750.98kb] [文件加载：91]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6349973504; pgv_si=s6854816768; PHPSESSID=2bdg6o3a58haq23vdn8j8urf5s',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ptls/public/index.php/admin/index/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'verify' => 'vr6a',
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=lvshi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Hooks' ORDER BY `id` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `name`,`addons` FROM `yzn_hooks` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_addons` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yzn_addons` WHERE  `name` IN ('returntop')  AND `status` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `yzn_admin`  SET `last_login_time` = 1543828680 , `last_login_ip` = 0  WHERE  `userid` = 1 [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_adminlog` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] INSERT INTO `yzn_adminlog` (`uid` , `status` , `info` , `get` , `ip` , `create_time`) VALUES (1 , 1 , '提示语:恭喜您，登陆成功' , '/ptls/public/index.php/admin/index/login.html' , 0 , 1543828680) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-12-03T17:18:01+08:00 ] ::1 GET localhost/ptls/public/index.php/admin/index/index.html
+[运行时间：0.140008s] [吞吐率：7.14req/s] [内存消耗：3,168.91kb] [文件加载：94]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6349973504; pgv_si=s6854816768; PHPSESSID=2bdg6o3a58haq23vdn8j8urf5s',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ptls/public/index.php/admin/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\ptls\application\admin\view\index\index.html [ array (
+  0 => 'userInfo',
+  1 => 'SUBMENU_CONFIG',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;dbname=lvshi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Hooks' ORDER BY `id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT `name`,`addons` FROM `yzn_hooks` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_addons` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yzn_addons` WHERE  `name` IN ('returntop')  AND `status` = 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_menu` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 0  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 3  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 10  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 11  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 24  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 25  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 26  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 13  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 14  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 27  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 28  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 29  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 23  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 30  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 31  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 15  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 16  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 17  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 20  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 5  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 32  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 33  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` WHERE  `parentid` = 34  AND `status` = 1 ORDER BY `listorder` ASC,`id` ASC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-03T17:18:02+08:00 ] ::1 GET localhost/ptls/public/index.php/admin/main/index.html
+[运行时间：0.268016s] [吞吐率：3.73req/s] [内存消耗：2,936.17kb] [文件加载：91]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6349973504; pgv_si=s6854816768; PHPSESSID=2bdg6o3a58haq23vdn8j8urf5s',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ptls/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\ptls\application\admin\view\main\index.html [ array (
+  0 => 'userInfo',
+  1 => 'sys_info',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=lvshi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Hooks' ORDER BY `id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `name`,`addons` FROM `yzn_hooks` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_addons` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yzn_addons` WHERE  `name` IN ('returntop')  AND `status` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT VERSION() as version [ RunTime:0.075004s ]
+---------------------------------------------------------------
+[ 2018-12-03T17:18:06+08:00 ] ::1 GET localhost/ptls/public/index.php/admin/config/index/menuid/11.html
+[运行时间：0.090005s] [吞吐率：11.11req/s] [内存消耗：2,978.81kb] [文件加载：92]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6349973504; pgv_si=s6854816768; PHPSESSID=2bdg6o3a58haq23vdn8j8urf5s',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ptls/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '11',
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\ptls\application\admin\view\config\index.html [ array (
+  0 => 'groupArray',
+  1 => 'group',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=lvshi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Hooks' ORDER BY `id` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT `name`,`addons` FROM `yzn_hooks` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_addons` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yzn_addons` WHERE  `name` IN ('returntop')  AND `status` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-12-03T17:18:06+08:00 ] ::1 GET localhost/ptls/public/index.php/admin/config/index/group/base.html?page=1&limit=10
+[运行时间：0.086005s] [吞吐率：11.63req/s] [内存消耗：2,768.76kb] [文件加载：87]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6349973504; pgv_si=s6854816768; PHPSESSID=2bdg6o3a58haq23vdn8j8urf5s',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ptls/public/index.php/admin/config/index/menuid/11.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+  'group' => 'base',
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=lvshi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Hooks' ORDER BY `id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `name`,`addons` FROM `yzn_hooks` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_addons` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yzn_addons` WHERE  `name` IN ('returntop')  AND `status` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_config` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `config`.`id`,`config`.`name`,`config`.`title`,`config`.`type`,`config`.`listorder`,`config`.`status`,`config`.`update_time`,field_type.title as ftitle FROM `yzn_config` `config` LEFT JOIN `yzn_field_type` `field_type` ON `field_type`.`name`=`config`.`type` WHERE  `group` = 'base' ORDER BY `config`.`listorder` ASC,`config`.`id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-03T17:18:07+08:00 ] ::1 GET localhost/ptls/public/index.php/admin/config/setting/menuid/13.html
+[运行时间：0.131008s] [吞吐率：7.63req/s] [内存消耗：3,058.69kb] [文件加载：93]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6349973504; pgv_si=s6854816768; PHPSESSID=2bdg6o3a58haq23vdn8j8urf5s',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ptls/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '13',
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\ptls\application\admin\view\config\setting.html [ array (
+  0 => 'groupArray',
+  1 => 'fieldList',
+  2 => 'group',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=lvshi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Hooks' ORDER BY `id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `name`,`addons` FROM `yzn_hooks` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_addons` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yzn_addons` WHERE  `name` IN ('returntop')  AND `status` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_config` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `name`,`title`,`remark`,`type`,`value`,`options` FROM `yzn_config` WHERE  `group` = 'base'  AND `status` = 1 ORDER BY `listorder`,`id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_attachment` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_attachment` WHERE  `id` = 233 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `path`,`driver`,`thumb` FROM `yzn_attachment` WHERE  `id` = 233 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_attachment` WHERE  `id` = 234 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `path`,`driver`,`thumb` FROM `yzn_attachment` WHERE  `id` = 234 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_attachment` WHERE  `id` = 235 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `path`,`driver`,`thumb` FROM `yzn_attachment` WHERE  `id` = 235 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-12-03T17:18:08+08:00 ] ::1 GET localhost/ptls/public/index.php/attachment/ueditor/run.html?action=config&&noCache=1543828687973
+[运行时间：0.080004s] [吞吐率：12.50req/s] [内存消耗：2,765.64kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6349973504; pgv_si=s6854816768; PHPSESSID=2bdg6o3a58haq23vdn8j8urf5s',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ptls/public/index.php/admin/config/setting/menuid/13.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'config',
+  'noCache' => '1543828687973',
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=lvshi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Hooks' ORDER BY `id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `name`,`addons` FROM `yzn_hooks` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_addons` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yzn_addons` WHERE  `name` IN ('returntop')  AND `status` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-03T17:18:08+08:00 ] ::1 GET localhost/ptls/public/index.php/admin/menu/index/menuid/14.html
+[运行时间：0.104006s] [吞吐率：9.61req/s] [内存消耗：2,965.94kb] [文件加载：92]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6349973504; pgv_si=s6854816768; PHPSESSID=2bdg6o3a58haq23vdn8j8urf5s',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ptls/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '14',
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\ptls\application\admin\view\menu\index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=lvshi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Hooks' ORDER BY `id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `name`,`addons` FROM `yzn_hooks` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_addons` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yzn_addons` WHERE  `name` IN ('returntop')  AND `status` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-03T17:18:08+08:00 ] ::1 GET localhost/ptls/public/index.php/admin/menu/index.html?page=1&limit=10
+[运行时间：0.091005s] [吞吐率：10.99req/s] [内存消耗：2,781.18kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6349973504; pgv_si=s6854816768; PHPSESSID=2bdg6o3a58haq23vdn8j8urf5s',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ptls/public/index.php/admin/menu/index/menuid/14.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=lvshi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Hooks' ORDER BY `id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `name`,`addons` FROM `yzn_hooks` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_addons` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yzn_addons` WHERE  `name` IN ('returntop')  AND `status` = 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_menu` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_menu` ORDER BY `listorder`,`id` DESC [ RunTime:0.002001s ]
+---------------------------------------------------------------
+[ 2018-12-03T17:18:12+08:00 ] ::1 GET localhost/ptls/public/index.php/attachment/attachments/index/menuid/23.html
+[运行时间：0.100006s] [吞吐率：10.00req/s] [内存消耗：2,970.80kb] [文件加载：90]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6349973504; pgv_si=s6854816768; PHPSESSID=2bdg6o3a58haq23vdn8j8urf5s',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ptls/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '23',
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\ptls\application\attachment\view\attachments\index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;dbname=lvshi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Hooks' ORDER BY `id` DESC [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `name`,`addons` FROM `yzn_hooks` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_addons` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yzn_addons` WHERE  `name` IN ('returntop')  AND `status` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-12-03T17:18:13+08:00 ] ::1 GET localhost/ptls/public/index.php/attachment/attachments/index.html?page=1&limit=10
+[运行时间：0.110006s] [吞吐率：9.09req/s] [内存消耗：2,750.81kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6349973504; pgv_si=s6854816768; PHPSESSID=2bdg6o3a58haq23vdn8j8urf5s',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ptls/public/index.php/attachment/attachments/index/menuid/23.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=lvshi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Hooks' ORDER BY `id` DESC [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `name`,`addons` FROM `yzn_hooks` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_addons` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yzn_addons` WHERE  `name` IN ('returntop')  AND `status` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_attachment` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_attachment` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yzn_attachment` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.019001s ]
+---------------------------------------------------------------
+[ 2018-12-03T17:18:14+08:00 ] ::1 GET localhost/ptls/public/index.php/admin/auth_manager/index/menuid/17.html
+[运行时间：0.101006s] [吞吐率：9.90req/s] [内存消耗：2,952.04kb] [文件加载：91]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6349973504; pgv_si=s6854816768; PHPSESSID=2bdg6o3a58haq23vdn8j8urf5s',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ptls/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'menuid' => '17',
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\ptls\application\admin\view\auth_manager\index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=lvshi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Hooks' ORDER BY `id` DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `name`,`addons` FROM `yzn_hooks` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_addons` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yzn_addons` WHERE  `name` IN ('returntop')  AND `status` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-12-03T17:18:14+08:00 ] ::1 GET localhost/ptls/public/index.php/admin/auth_manager/index.html?page=1&limit=10
+[运行时间：0.103006s] [吞吐率：9.71req/s] [内存消耗：2,740.77kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\ptls\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=6349973504; pgv_si=s6854816768; PHPSESSID=2bdg6o3a58haq23vdn8j8urf5s',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/ptls/public/index.php/admin/auth_manager/index/menuid/17.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:host=127.0.0.1;dbname=lvshi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_cache` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_cache` WHERE  `key` = 'Hooks' ORDER BY `id` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_hooks` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT `name`,`addons` FROM `yzn_hooks` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_addons` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yzn_addons` WHERE  `name` IN ('returntop')  AND `status` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_admin` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_admin` WHERE  `userid` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yzn_auth_group` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `yzn_auth_group` WHERE  `module` = 'admin' ORDER BY `id` ASC [ RunTime:0.000000s ]

@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2018-12-03T16:01:28+08:00 ] ::1 GET localhost/YZNCMS/public/
+[运行时间：0.060004s] [吞吐率：16.67req/s] [内存消耗：1,978.98kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\YZNCMS\thinkphp\lang\zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[D:\phpstudy\PHPTutorial\WWW\YZNCMS\thinkphp\library\think\db\Connection.php:528]

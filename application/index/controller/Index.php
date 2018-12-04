@@ -5,7 +5,7 @@ class Index
 {
     public function index()
     {
-        return 'ptls行业网站';
+        return 'ptls行业网站 继续测试';
     }
 
     public function hello($name = 'ThinkPHP5')
